@@ -1,0 +1,52 @@
+/* YourComponent.css */
+
+body {
+  overflow-x: hidden;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+   
+  }
+  
+  .line {
+    width: 160%;
+    height: 1px;
+    background-color: rgb(118, 118, 118);
+    margin-left: -175px;
+    z-index: 1;
+  }
+  
+  .content {
+    display: flex;
+  width: 150%;
+  align-items: center;
+  }
+  
+
+.column {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: flex-start;
+  margin: 0 10px;
+  
+}
+.text {
+  margin-left: 5px; /* Adjust margin to match the line start */
+}
+.column > * {
+  margin-right: 5px; /* Adjust margin as needed */
+}
+ .center p {
+  display: inline; /* Display paragraphs as inline */
+  margin: 0; /* Remove default margin */
+}
+
+/* If you need space between icon and text */
+p + svg {
+  margin-left: 5px; /* Adjust margin as needed */
+}

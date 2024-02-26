@@ -1,0 +1,37 @@
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    padding: 100px;
+    color: aliceblue;
+  }
+  
+  .column {
+    flex: 1;
+    
+  }
+  
+  .column h3 {
+    font-size: 18px;
+    margin-bottom: 1.5rem;
+  }
+  
+  .column ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 12px;
+  }
+  
+  .column ul li {
+    margin-bottom: 5px;
+  }
+  .flexContainer {
+    display: flex;
+    align-items: center; /* Optional: align items vertically in the center */
+  }
+  
+  .flexItem {
+    margin-left: 5px;
+    margin-top: 5px; /* Optional: Add margin between the items */
+  }
